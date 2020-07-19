@@ -1,0 +1,40 @@
+@import './colors.scss';
+
+.headerRight{
+    text-align: right;
+    // margin-right: 2rem;
+}
+.headerBtn{
+    background-color: transparent;
+    color: $mainColor;
+    border-color: transparent;
+    margin: 1rem 2rem 1rem 0rem;
+    // float: right;
+}
+.header{
+    border-bottom: 2px solid $mainColor;
+}
+
+.container{
+    background-color: #ffffff;
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+.title{
+    background-color: $mainColor;
+    color: $subBasicColor;
+    
+    
+    margin-bottom: 2em;
+}
+
+.IconBtn{
+    background-color: transparent;
+    border: transparent;
+}
+.ellipIcon{
+    color: $mainColor;
+}
+
+

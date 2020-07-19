@@ -1,0 +1,52 @@
+.side-drawer {
+  // height: calc(100% - var(--toolbarHeigh));
+  height: 100%;
+  background: var(--sideNavigationBackgroundNewBrowsers);
+  // box-shadow: 2px 0px 7px rgba($color: #000000, $alpha: 0.5);
+  position: fixed;
+  // top: 56px;
+  left: 0;
+  width: 100%;
+  max-width: 768px;
+  z-index: 200;
+  transform: translateX(-102%);
+  transition: transform 0.3s ease-out;
+
+  &.open {
+    transform: translateX(0);
+    z-index: 2000;
+  }
+
+  .test{
+    width: 100%;
+    text-align: center;
+    margin: 3rem 0rem 3rem 0.0rem;
+    color: white;
+  }
+
+  .space{
+    margin-right: 1rem;
+  }
+
+  .linkButton {
+    padding: 0.5rem 2rem;
+    color: white;
+  }
+}
+@media (min-width: 769px) {
+  .side-drawer {
+    display: none;
+  }
+
+  .changeLanguageFlagsSideBar {
+    display: none;
+  }
+}
+@media (max-height: 660px) {
+  .side-drawer {
+    li {
+      padding: 0px;
+      margin: 0px;
+    }
+  }
+}
