@@ -5,7 +5,7 @@ This website is for managers to manage all transactions, accept adding points an
 
 This is how our website look like:
 
-![LoginPage](https://i.imgur.com/ZgPhEhy.png)
+![LoginPage](https://i.imgur.com/YkrIpg0.png)
 
 ![Transactions](https://i.imgur.com/nMBt5JC.png)
 
